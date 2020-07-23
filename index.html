@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>html.js</title>
+<script src="lib.js"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+        
+<div class="code">
+    <h1 class="code_title">Decode from BaseAES format</h1>
+    <div class="code_detail">Simply use the form below</div>
+    
+    <input id="clear" type="button" value="Clear">
+    <input id="clear-input" type="button" value="Clear">
+    <input id="clear-output" type="button" value="Clear">
+    <form>
+        <textarea name="input" id="input" cols="" rows="">Type (or paste) here...</textarea>
+        <input id="button" type="button" value="&lt; CODE &gt;">
+        <select id="select">
+            <optgroup label="Base64">
+                <option value="decode">Decode</option>
+                <option value="encode">Encode</option>
+            </optgroup>
+            <optgroup label="AES">
+                <option value="decrypt">Decrypt</option>
+                <option value="encrypt">Encrypt</option>
+            </optgroup>
+            <optgroup label="Pack">
+                <option value="pack">Pack</option>
+                <option value="upack">Unpack</option>
+            </optgroup>
+        </select> 
+    </form>
+    <textarea name="output" id="output" cols="" rows="">Result goes here...</textarea>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

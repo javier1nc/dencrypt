@@ -1,0 +1,57 @@
+#input {
+    background-color:orange;
+    width:96%;
+    height:300px;
+    color: #008bff;
+    border:none;
+    padding:1%;
+    font:20px/28px monospace;
+}
+
+#output {
+    background-color:orange;
+    width:96%;
+    height:300px;
+    color: #008bff;
+    border:none;
+    padding:1%;
+    font:20px/28px monospace;
+}
+
+
+#button{
+    background-color:yellowgreen;
+    color:yellow;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+}
+
+
+
+#clear{
+    background-color:yellowgreen;
+    color:yellow;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+}
+
+#clear-input{
+    background-color:yellowgreen;
+    color:yellow;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+}
+#clear-output{
+    background-color:yellowgreen;
+    color:yellow;
+    padding:5px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+}
